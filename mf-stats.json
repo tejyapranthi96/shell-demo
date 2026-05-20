@@ -1,0 +1,426 @@
+{
+  "id": "shell",
+  "name": "shell",
+  "metaData": {
+    "name": "shell",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "local"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "shell",
+    "pluginVersion": "2.3.1",
+    "prefetchInterface": false,
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^0.0.1",
+      "shareScope": "default",
+      "eager": true,
+      "strictVersion": false,
+      "name": "@bupa-mfe-platform/api",
+      "version": "0.0.1",
+      "id": "shell:@bupa-mfe-platform/api",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "main.a10fb468dcf5c9cc.js",
+            "remoteEntry.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.15.0",
+      "shareScope": "default",
+      "eager": true,
+      "strictVersion": false,
+      "name": "axios",
+      "version": "1.15.0",
+      "id": "shell:axios",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "main.a10fb468dcf5c9cc.js",
+            "remoteEntry.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.1.1",
+      "shareScope": "default",
+      "strictVersion": true,
+      "name": "clsx",
+      "version": "2.1.1",
+      "eager": false,
+      "id": "shell:clsx",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "358.2c5140ed6f889bbf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.14.0",
+      "shareScope": "default",
+      "strictVersion": true,
+      "name": "lucide-react",
+      "version": "1.16.0",
+      "eager": false,
+      "id": "shell:lucide-react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "98.dfe75a1f8441d338.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "19.0.0",
+      "shareScope": "default",
+      "strictVersion": true,
+      "name": "react-dom/client",
+      "version": "19.0.0",
+      "eager": false,
+      "id": "shell:react-dom/client",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "610.51a48c81bb95df56.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./Bootstrap"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.0.0",
+      "shareScope": "default",
+      "eager": true,
+      "strictVersion": false,
+      "name": "react-dom",
+      "version": "19.0.0",
+      "id": "shell:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "main.a10fb468dcf5c9cc.js",
+            "remoteEntry.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "6.30.3",
+      "shareScope": "default",
+      "strictVersion": true,
+      "eager": true,
+      "name": "react-router-dom",
+      "version": "6.30.3",
+      "id": "shell:react-router-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "main.a10fb468dcf5c9cc.js",
+            "remoteEntry.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./Bootstrap"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.0.0",
+      "shareScope": "default",
+      "eager": true,
+      "strictVersion": false,
+      "name": "react/jsx-runtime",
+      "version": "19.0.0",
+      "id": "shell:react/jsx-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "main.a10fb468dcf5c9cc.js",
+            "remoteEntry.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./Bootstrap"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.0.0",
+      "shareScope": "default",
+      "eager": true,
+      "strictVersion": false,
+      "name": "react",
+      "version": "19.0.0",
+      "id": "shell:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "main.a10fb468dcf5c9cc.js",
+            "remoteEntry.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./Bootstrap"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^7.8.2",
+      "shareScope": "default",
+      "eager": true,
+      "strictVersion": false,
+      "name": "rxjs",
+      "version": "7.8.2",
+      "id": "shell:rxjs",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "main.a10fb468dcf5c9cc.js",
+            "remoteEntry.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./Bootstrap"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.0.0",
+      "shareScope": "default",
+      "eager": true,
+      "strictVersion": false,
+      "name": "shared-ui",
+      "version": "1.0.0",
+      "id": "shell:shared-ui",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "main.a10fb468dcf5c9cc.js",
+            "remoteEntry.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./Bootstrap"
+      ],
+      "usedExports": [],
+      "fallback": ""
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^3.5.0",
+      "shareScope": "default",
+      "strictVersion": true,
+      "name": "tailwind-merge",
+      "version": "3.6.0",
+      "eager": false,
+      "id": "shell:tailwind-merge",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "666.380f3149a06f0332.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [],
+      "usedExports": [],
+      "fallback": ""
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "powerapp",
+      "consumingFederationContainerName": "shell",
+      "federationContainerName": "powerapp",
+      "moduleName": "Module",
+      "usedIn": [
+        "src/bootstrap.tsx + 4 modules",
+        "src/routes/AppShell.tsx + 7 modules"
+      ],
+      "entry": "http://localhost:4202/remoteEntry.js"
+    },
+    {
+      "alias": "preauth",
+      "consumingFederationContainerName": "shell",
+      "federationContainerName": "preauth",
+      "moduleName": "Module",
+      "usedIn": [
+        "src/bootstrap.tsx + 4 modules"
+      ],
+      "entry": "http://localhost:4201/remoteEntry.js"
+    },
+    {
+      "alias": "preauth",
+      "consumingFederationContainerName": "shell",
+      "federationContainerName": "preauth",
+      "moduleName": "routes",
+      "usedIn": [
+        "src/routes/AppShell.tsx + 7 modules"
+      ],
+      "entry": "http://localhost:4201/remoteEntry.js"
+    },
+    {
+      "alias": "preauth",
+      "consumingFederationContainerName": "shell",
+      "federationContainerName": "preauth",
+      "moduleName": "init",
+      "usedIn": [
+        "src/routes/AppShell.tsx + 7 modules"
+      ],
+      "entry": "http://localhost:4201/remoteEntry.js"
+    }
+  ],
+  "exposes": [
+    {
+      "path": "./Bootstrap",
+      "id": "shell:Bootstrap",
+      "name": "Bootstrap",
+      "requires": [
+        "react",
+        "react/jsx-runtime",
+        "react-dom/client",
+        "react-router-dom",
+        "rxjs",
+        "shared-ui"
+      ],
+      "file": "src\\bootstrap.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_Bootstrap.a9b0d070bfaa9065.js"
+          ],
+          "async": [
+            "608.8b6bb983c20f5612.js",
+            "593.1db6d79821d50425.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_Bootstrap.4b122b0ec5e185f0.css"
+          ],
+          "async": [
+            "608.ac134f7fa15a21df.css"
+          ]
+        }
+      }
+    }
+  ]
+}
